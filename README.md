@@ -1,4 +1,4 @@
-Soundemote VCV Rack collection. 1 module so far: Superlove Filter
+# Soundemote for VCV Rack
 
 ## Superlove Filter
 
@@ -21,22 +21,6 @@ IN 1 only is mono (same signal on both outs). IN 1 and IN 2 is stereo. SPREAD ap
 
 ## Audio Demos
 
-* https://youtu.be/36fkv5bXsv0 Bandpass filter high drive max resonance
-* https://youtu.be/0YeF2PfKqDg Highpass filter high drive various resonance
-* https://youtu.be/zjAue88ahk8 Lowpass (LP24) filter varying drive and resonance
-
-## Building
-
-You need the [Rack SDK](https://vcvrack.com/downloads/) and a MinGW-w64 toolchain (Windows), or the standard toolchain for your OS.
-
-```sh
-export RACK_DIR=/path/to/Rack-SDK
-make
-make install
-```
-
-`make dist` writes `dist/FMD/` and a `.vcvplugin` next to it. Copy either into the Rack plugins directory (`%LOCALAPPDATA%\Rack2\plugins-win-x64\` on Windows) if you skip `make install`.
-
-## License
-
-Proprietary. The plugin package includes the [VCV Rack plugin EULA](https://vcvrack.com/eula.md) as `LICENSE-VCV.md`.
+- [Bandpass filter, high drive, max resonance](https://youtu.be/36fkv5bXsv0)
+- [Highpass filter, high drive, various resonance](https://youtu.be/0YeF2PfKqDg)
+- [Lowpass (LP24) filter, varying drive and resonance](https://youtu.be/zjAue88ahk8)
